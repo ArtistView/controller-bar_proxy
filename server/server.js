@@ -18,7 +18,7 @@ app.get('/',(req,res)=>{
   res.end();
 })
 
-//port set to list on 4000
+//port set to list on 4001
 app.set('PORT',4001)
 //app set to listen on port 4000
 //displays message if connected
