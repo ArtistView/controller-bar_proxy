@@ -19,9 +19,9 @@ app.get('/',(req,res)=>{
 })
 
 //port set to list on 4001
-app.set('PORT',4001)
+let port = process.env.PORT||4001;
 //app set to listen on port 4000
 //displays message if connected
-app.listen(app.get('PORT'),()=>{
-  console.log("Listening on port: "+app.get('PORT'));
+app.listen(port,()=>{
+  console.log(`Listening on port: ${port}`);
 })
