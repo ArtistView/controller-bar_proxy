@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 const proxy = require('http-proxy-middleware');
 
-
+app.use(express.static(__dirname+'/../public'))
 
 app.use(morgan('dev'));
 app.use(bodyParser.json());
