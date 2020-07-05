@@ -14,10 +14,10 @@ app.use(cors());
 app.use(express.static(__dirname+'/../public'))
 // app.use(express.static('public'))
 
-app.get('/',(req,res)=>{
-  res.status(200).send('connected');
-  res.end();
-})
+// app.get('/',(req,res)=>{
+//   res.status(200).send('connected');
+//   res.end();
+// })
 
 //port set to list on 4001
 
