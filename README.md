@@ -37,15 +37,3 @@ To Run Server
 ```sh
 npm start
 ```
-
-To run dev enviroment/webpack
-
-```sh
-npm run react-dev
-```
-
-To run test
-
-```sh
-npm test
-```
